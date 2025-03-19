@@ -1,6 +1,6 @@
 # SEN schools census data analysis
 
-**Scripts and resources for analysing schools census data for England.**
+**Scripts and resources for analysing [schools census data for England](https://explore-education-statistics.service.gov.uk/find-statistics/school-pupils-and-their-characteristics/2023-24).**
 
 We are interested in looking at the characteristics and placements of children with Special Educational Needs in schools in England and how they may be changing over time.
 
