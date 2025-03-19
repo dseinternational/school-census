@@ -6,9 +6,11 @@ import duckdb
 import db_utils
 import config
 
-print("Connecting to database")
+db_name = f"{config.DATA_DIR_NAME}/data_tables.db"
 
-data = duckdb.connect(f"{config.DATA_DIR_NAME}/data_tables.db")
+print(f"Creating to database at {db_name}")
+
+data = duckdb.connect(db_name)
 
 if not db_utils.table_exists(data, "sen_ncyear"):
     data.sql(

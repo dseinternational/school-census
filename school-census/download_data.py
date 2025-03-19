@@ -12,6 +12,7 @@ data_files = {
 }
 
 if not os.path.exists(config.DATA_DIR_NAME):
+    print(f"Creating directory {config.DATA_DIR_NAME}")
     os.makedirs(config.DATA_DIR_NAME)
 
 for name, url in data_files.items():
