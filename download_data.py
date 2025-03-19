@@ -24,4 +24,3 @@ for name, url in data_files.items():
             archive.extractall(f"{config.DATA_DIR_NAME}/sen-2023-24")
     except zipfile.BadZipFile as error:
         print(f"Error extracting {filename}: {error}")
-        
